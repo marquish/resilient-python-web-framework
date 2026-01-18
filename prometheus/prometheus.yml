@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: "starlette"
+    static_configs:
+      - targets: ["starlette:8000"] #docker compose service name

@@ -1,0 +1,4 @@
+starlette
+uvicorn[standard]
+jinja2
+prometheus-client
